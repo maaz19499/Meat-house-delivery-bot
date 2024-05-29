@@ -1,0 +1,20 @@
+{
+  "recipient_number": "919945657981",
+  "flow_flag": "customer_mobile_no",
+  "customer_data": {
+    "customer_id": 1,
+    "customer_name": "1",
+    "customer_mobile_no": "8892856395",
+    "customer_house_image_id": 1020629006351617,
+    "customer_house_latitude": 12.334798096159,
+    "customer_house_longitude": 76.673494354851
+  },
+  "search_data": {
+    "Customer_Contact_Number": 8892856395,
+    "Image_ID": 1020629006351617,
+    "Customer_ID": 1,
+    "longitude": 76.673494354851,
+    "latitude": 12.334798096159,
+    "Customer_Name": "Maaz"
+  }
+}
