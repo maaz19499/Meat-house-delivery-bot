@@ -4,8 +4,6 @@ from dotenv import load_dotenv
 import logging
 
 
-FIREBASE_CRED_PATH = 'app/utils/firebase_cred/airbnbbot-usmaanclient-firebase-adminsdk-obzqc-78e56060b5.json'
-
 
 
 
