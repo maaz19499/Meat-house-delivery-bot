@@ -10,15 +10,15 @@ FIREBASE_CRED_PATH = 'app/utils/firebase_cred/airbnbbot-usmaanclient-firebase-ad
 
 
 def load_configurations(app):
-    app.config["ACCESS_TOKEN"] = ACCESS_TOKEN
-    app.config["YOUR_PHONE_NUMBER"] = 'YOUR_PHONE_NUMBER'
-    app.config["APP_ID"] = APP_ID
-    app.config["APP_SECRET"] = APP_SECRET
-    app.config["RECIPIENT_WAID"] = RECIPIENT_WAID
-    app.config["VERSION"] = VERSION
-    app.config["PHONE_NUMBER_ID"] = PHONE_NUMBER_ID
-    app.config["VERIFY_TOKEN"] = VERIFY_TOKEN
-    app.config["Manager_WAID"] = Manager_WAID
+    app.config["ACCESS_TOKEN"] = os.getenv("ACCESS_TOKEN")
+    app.config["YOUR_PHONE_NUMBER"] = os.getenv("YOUR_PHONE_NUMBER")
+    app.config["APP_ID"] = os.getenv("APP_ID")
+    app.config["APP_SECRET"] = os.getenv("APP_SECRET")
+    app.config["RECIPIENT_WAID"] = os.getenv("RECIPIENT_WAID")
+    app.config["VERSION"] = os.getenv("VERSION")
+    app.config["PHONE_NUMBER_ID"] = os.getenv("PHONE_NUMBER_ID")
+    app.config["VERIFY_TOKEN"] = os.getenv("VERIFY_TOKEN")
+    app.config["Manager_WAID"] = os.getenv("Manager_WAID")
 
 
 
